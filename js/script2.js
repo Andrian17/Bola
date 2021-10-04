@@ -13,7 +13,7 @@ function ambilData() {
             <span class="d-flex justify-content-center mt-3">` + data.title + `</span>
             <span class="d-flex justify-content-center">` + data.competition + `</span>
             <span class="d-flex justify-content-center">` + data.date + `</span>
-            <div id="forVideo" class="mb-3 mt-3 w-50 p-3 border border-primary m-auto">` + data.videos[0].embed + `</div>
+            <div id="forVideo" class="mb-3 mt-3 w-50 p-3 m-auto border ">` + data.videos[0].embed + `</div>
             </div>`);
 
         }
