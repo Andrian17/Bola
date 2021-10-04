@@ -7,7 +7,7 @@ function ambilData() {
         
         //console.log(data.videos);
         //console.log( "ddffdf: " +data.videos.length)
-        if (i<=5) {
+        if (i<=10) {
             
             $('#adr1').append(`<div class="card mb-3 adr1">
             <span class="d-flex justify-content-center mt-3">` + data.title + `</span>
