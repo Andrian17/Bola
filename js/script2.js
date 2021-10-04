@@ -23,6 +23,17 @@ function ambilData() {
 });
 }
 
+    let adr = document.getElementById('adr1');
+    adr.addEventListener('mouseover', function(e) {
+        e.target.classList.add('border-primary');
+
+    });
+
+    adr.addEventListener('mouseout', function(e){
+        e.target.classList.remove('border-primary');
+    })
+
+
 
 ambilData();
 
