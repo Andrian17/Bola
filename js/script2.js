@@ -3,7 +3,7 @@ function ambilData() {
     let info = data.response;
     //console.log(data.response.title);
     $.each(info, function (i, data) {
-      if (i <= 20) {
+      if (i <= 10) {
         $("#adr1").append(
           `<div class="card mb-3">
           <h5 class="mt-3">` +
